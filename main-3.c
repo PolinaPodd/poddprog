@@ -10,6 +10,6 @@ int main()
     scanf("%f",&a);
     z1=((((a+2)/(sqrt(2*a)))-(a/(sqrt(2*a)+2))+(2/(a-sqrt(2*a))))*((sqrt(a)-sqrt(2))/(a+2))); 
     z2=1/(sqrt(a)+sqrt(2));
-    printf("%f\n",z1); /
-    printf("%f",z2);
+    printf("Z1 %f\n",z1); /
+    printf("Z2 %f",z2);
 }
